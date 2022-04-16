@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div>
+        <div className="text-center">
             Designed and built by John
         </div>
     );

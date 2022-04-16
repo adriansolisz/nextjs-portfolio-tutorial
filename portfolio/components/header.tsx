@@ -1,10 +1,10 @@
 const Header = () => {
     return (
-        <div>
-            <div className="text-xl text-red-900">
+        <div className="text-center">
+            <div className="text-2xl font-bold">
                 John Smith
             </div>
-            <div>
+            <div className="text-gray-500">
                 Software developer
             </div>
         </div>
