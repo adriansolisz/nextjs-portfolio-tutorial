@@ -10,12 +10,12 @@ const ProjectPreview = () => {
         <div className="flex gap-4">
             <div className="relative w-24 h-16">
                 <Link href={linkUrl}>
-                    <a target="_blank" ><Image src="/data-analytics-project.jpg" className="hover:opacity-80 delay-100" layout="fill"/></a>
+                    <a><Image src="/data-analytics-project.jpg" className="hover:opacity-80 delay-100" layout="fill"/></a>
                 </Link>
             </div>
             <div className="my-auto">
                 <Link href={linkUrl}>
-                    <a target="_blank" className="font-bold underline hover:text-indigo-600">
+                    <a className="font-bold underline hover:text-indigo-600">
                         {title}
                     </a>
                 </Link>
